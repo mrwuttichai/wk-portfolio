@@ -1,4 +1,4 @@
-import AboutMeSection from "./AboutmeSection"
+import AboutMeSection from "./AboutMeSection"
 import HomeSection from "./HomeSection"
 import SkillsSection from "./SkillsSection"
 
