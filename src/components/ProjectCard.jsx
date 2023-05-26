@@ -7,11 +7,11 @@ export default function ProjectCard({ title, description, githubLink, demoLink, 
   const defaultDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ";
 
   return (
-    <div className={`flex ${reverse ? "flex-row-reverse" : ""}`}>
-      <div className={`w-1/2 ${backgroundColor ? backgroundColor : ""}`}>
+    <div className={`flex ${reverse ? "flex-row-reverse" : ""} max-lg:flex-col-reverse`}>
+      <div className={`w-1/2 ${backgroundColor ? backgroundColor : ""} max-lg:w-full`}>
 
         {/* Project Detail */}
-        <div className="flex flex-col justify-between h-full gap-y-4 p-8 ">
+        <div className="flex flex-col justify-between h-full gap-y-4 p-8 max-lg:gap-y-16">
           <div className={`flex flex-col justify-between gap-y-4 ${textColor ? textColor : null}`}>
             <div>
               <h1 className={`text-4xl font-semibold ${titleColor ? titleColor : null}`}>{title ? title : defaultTitle}</h1>
@@ -34,7 +34,7 @@ export default function ProjectCard({ title, description, githubLink, demoLink, 
       </div>
 
       {/* Project Image */}
-      <div className={`w-1/2 ${backgroundColor ? backgroundColor : ""}`}>
+      <div className={`w-1/2 ${backgroundColor ? backgroundColor : ""} max-lg:w-full`}>
         <div className="p-8">
           <img className={`block w-full  hover:grayscale-0 shadow-xl rounded-xl ${isBlackWhiteImage ? "grayscale" : "grayscale-0"}`} src={colmarProject} />
         </div>
