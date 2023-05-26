@@ -1,6 +1,6 @@
 export default function Navbar({ leftFontStyle, rightFontStyle }) {
   return (
-    <nav className="flex justify-between items-center py-4 sticky top-0 bg-white z-40">
+    <nav className="flex justify-between items-center py-4 sticky top-0 bg-white z-40 px-4">
       <div>
         <a className="font-bold text-3xl">WK</a>
       </div>

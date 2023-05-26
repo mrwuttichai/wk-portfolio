@@ -18,7 +18,7 @@ export default function SkillsSection() {
           <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
         </Marquee>
       </div>
-      <div className="grid grid-cols-4 gap-x-10 px-10 pt-10">
+      <div className="grid grid-cols-4 gap-x-10 px-10 pt-10 max-lg:grid-cols-2 max-lg:gap-y-8 max-md:grid-cols-1">
         <SkillCard icon={<FaReact size={70} />} title="ReactJs" description="Developer" />
         <SkillCard icon={<FaNodeJs size={70} />} title="NodeJS" description="Developer" />
         <SkillCard icon={<SiMongodb size={70} />} title="MongoDB" />
