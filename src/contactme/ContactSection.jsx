@@ -1,6 +1,10 @@
+import { useSectionRef } from "../shared/sectionRefContext"
+
 export default function ContactSection({ sectionTitleColor, sectionDescriptionColor, sectionDescriptionText, sectionEmailText, backgroundColor, yourNameColor, yourEmailColor, yourMessageColor, buttonBackgroundColor, backgroundTextColor }) {
+  const { contactRef } = useSectionRef();
+
   return (
-    <div className={`grid grid-cols-12 bg-black p-10 max-lg:grid-cols-1`}>
+    <div className={`grid grid-cols-12 bg-black p-10 max-lg:grid-cols-1`} ref={contactRef}>
 
       {/* Left text */}
       <div className="col-span-6 text-white">
@@ -14,7 +18,7 @@ export default function ContactSection({ sectionTitleColor, sectionDescriptionCo
       </div>
 
       {/* Right Form */}
-      <div className="col-span-6 text-xl flex flex-col gap-y-4">
+      <div className="col-span-6 text-xl flex flex-col gap-y-4 max-md:pt-16">
         <div>
           <h1 className="text-xl text-white font-medium">Your Name</h1>
         </div>

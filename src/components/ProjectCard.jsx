@@ -2,7 +2,7 @@ import { BsGithub } from "react-icons/bs"
 import { AiOutlineLink } from "react-icons/ai"
 import colmarProject from "../assets/pj-1-tb.png"
 
-export default function ProjectCard({ title, description, githubLink, demoLink, reverse, backgroundColor, textColor, titleColor, descriptionColor, demoIconSize, githubIconSize, isBlackWhiteImage }) {
+export default function ProjectCard({ title, description, githubLink, demoLink, reverse, backgroundColor, textColor, titleColor, descriptionColor, demoIconSize, githubIconSize, isBlackWhiteImage, projectImage }) {
   const defaultTitle = "Title Project"
   const defaultDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ";
 
@@ -36,7 +36,7 @@ export default function ProjectCard({ title, description, githubLink, demoLink, 
       {/* Project Image */}
       <div className={`w-1/2 ${backgroundColor ? backgroundColor : ""} max-lg:w-full`}>
         <div className="p-8">
-          <img className={`block w-full  hover:grayscale-0 shadow-xl rounded-xl ${isBlackWhiteImage ? "grayscale" : "grayscale-0"}`} src={colmarProject} />
+          <img className={`block w-full  hover:grayscale-0 shadow-xl rounded-xl ${isBlackWhiteImage ? "grayscale" : "grayscale-0"}`} src={projectImage ? projectImage : colmarProject} />
         </div>
       </div>
 

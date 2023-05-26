@@ -1,7 +1,8 @@
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import { VerticalTimeline } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
 import WorkExperienceCard from "./WorkExperienceCard";
 import Marquee from "react-fast-marquee";
+import { useSectionRef } from "../shared/sectionRefContext";
 
 
 export default function WorkExperienceSection() {
@@ -43,18 +44,20 @@ export default function WorkExperienceSection() {
     },
   ]
 
+  const { workRef } = useSectionRef();
+
   return (
-    <div className="pt-40">
-      <div>
-        <Marquee>
-          <snap className="text-7xl font-bold uppercase px-10">Work Experience</snap>
-          <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
-          <snap className="text-7xl font-bold uppercase px-10">Work Experience</snap>
-          <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
-          <snap className="text-7xl font-bold uppercase px-10">Work Experience</snap>
-          <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
-          <snap className="text-7xl font-bold uppercase px-10">Work Experience</snap>
-          <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
+    <div className="pt-40" ref={workRef}>
+      <div className="h-full">
+        <Marquee className="text-6xl py-4">
+          <span className=" font-bold uppercase px-10">Work Experience</span>
+          <span className=" font-bold uppercase px-10">&#x2022;</span>
+          <span className=" font-bold uppercase px-10">Work Experience</span>
+          <span className=" font-bold uppercase px-10">&#x2022;</span>
+          <span className=" font-bold uppercase px-10">Work Experience</span>
+          <span className=" font-bold uppercase px-10">&#x2022;</span>
+          <span className=" font-bold uppercase px-10">Work Experience</span>
+          <span className=" font-bold uppercase px-10">&#x2022;</span>
         </Marquee>
       </div>
       <div className='pt-20'>
