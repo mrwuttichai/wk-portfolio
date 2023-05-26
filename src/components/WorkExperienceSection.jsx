@@ -4,12 +4,13 @@ import WorkExperienceCard from "./WorkExperienceCard";
 import Marquee from "react-fast-marquee";
 import { useSectionRef } from "../shared/sectionRefContext";
 
+
 export default function WorkExperienceSection() {
   const experiences = [
     {
       title: "Accountant (Part-time)",
       companyName: "BSK Power Engineering Ltd., Part.",
-      icon: "https://cdn-icons-png.flaticon.com/128/919/919847.png",
+      icon: "https://cdn-icons-png.flaticon.com/128/1024/1024914.png",
       iconBg: "#383E56",
       date: "Jun 2022 - Jul 2022",
       points: [
@@ -21,7 +22,7 @@ export default function WorkExperienceSection() {
     {
       title: "Barista",
       companyName: "Khum Setthi coffee shop",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png",
+      icon: "https://cdn-icons-png.flaticon.com/128/751/751621.png",
       iconBg: "#383E56",
       date: "Aug 2022 - Jan 2023",
       points: [
@@ -32,7 +33,7 @@ export default function WorkExperienceSection() {
     {
       title: "Co-Founder",
       companyName: "Chiang Klang Tourism Community Enterprise",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
+      icon: "https://cdn-icons-png.flaticon.com/128/7596/7596530.png",
       iconBg: "#383E56",
       date: "Dec 2021 - present",
       points: [

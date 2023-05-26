@@ -12,7 +12,7 @@ export default function ContactSection({ sectionTitleColor, sectionDescriptionCo
           <h1 className="text-7xl uppercase font-bold pb-4">Let's Talk</h1>
         </div>
         <div className="text-xl w-9/12 flex flex-col gap-y-4">
-          <h1>If you would like to work with me or just want to get in touch, i'd love to hear from you!</h1>
+          <h1>If you would like to work with me or just want to get in touch, I'd love to hear from you!</h1>
           <p>wk@example.com</p>
         </div>
       </div>
