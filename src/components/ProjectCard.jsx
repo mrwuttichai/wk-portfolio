@@ -2,12 +2,12 @@ import { BsGithub } from "react-icons/bs"
 import { AiOutlineLink } from "react-icons/ai"
 import colmarProject from "../assets/pj-1-tb.png"
 
-export default function ProjectCard({ title, description, githubLink, demoLink, reverse, backgroundColor, textColor, titleColor, descriptionColor, demoIconSize, githubIconSize, isBlackWhiteImage, projectImage }) {
+export default function ProjectCard({ title, description, githubLink, demoLink, reverseContent, backgroundColor, textColor, titleColor, descriptionColor, demoIconSize, githubIconSize, isBlackWhiteImage, projectImage }) {
   const defaultTitle = "Title Project"
   const defaultDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ";
 
   return (
-    <div className={`flex ${reverse ? "flex-row-reverse" : ""} max-lg:flex-col-reverse`}>
+    <div className={`flex ${reverseContent ? "flex-row-reverse" : ""} max-lg:flex-col-reverse`}>
       <div className={`w-1/2 ${backgroundColor ? backgroundColor : ""} max-lg:w-full`}>
 
         {/* Project Detail */}
