@@ -1,7 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import menu from "../assets/menu.svg"
 import close from "../assets/close.svg"
-import { scrollToSection } from "../utils/motion.js"
 import { useSectionRef } from "../shared/sectionRefContext";
 
 export default function Navbar({ leftFontStyle, rightFontStyle,  }) {

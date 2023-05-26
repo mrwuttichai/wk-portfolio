@@ -7,7 +7,6 @@ import { SectionRefProvider } from './shared/sectionRefContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-
     <div className="max-sm:hidden">
       <AnimatedCursor
         innerSize={8}

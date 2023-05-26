@@ -1,4 +1,4 @@
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import { VerticalTimeline } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
 import WorkExperienceCard from "./WorkExperienceCard";
 import Marquee from "react-fast-marquee";

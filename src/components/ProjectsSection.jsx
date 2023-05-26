@@ -1,7 +1,5 @@
 import Marquee from "react-fast-marquee";
 import ProjectCard from "./ProjectCard";
-import { motion } from "framer-motion";
-import { staggerContainer } from "../utils/motion";
 import { useSectionRef } from "../shared/sectionRefContext";
 
 export default function ProjectsSection() {

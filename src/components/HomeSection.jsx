@@ -3,7 +3,6 @@ import { ImLinkedin } from "react-icons/im"
 import { BsFacebook } from "react-icons/bs"
 import { SiInstagram } from "react-icons/si"
 import TypewriterComponent from "typewriter-effect"
-import { motion } from 'framer-motion';
 import { useSectionRef } from "../shared/sectionRefContext"
 
 function HomeSection() {
