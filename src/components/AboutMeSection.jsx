@@ -1,4 +1,4 @@
-import profileImage from "../assets/profile.png"
+import profileImage from "../assets/pic1.jpg"
 
 export default function AboutMeSection() {
   return (
