@@ -5,7 +5,7 @@ import AnimatedCursor from "react-animated-cursor"
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="w-[1100px] mx-auto">
       <AnimatedCursor 
         innerSize={8}
         outerSize={8}
