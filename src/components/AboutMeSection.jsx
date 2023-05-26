@@ -1,9 +1,11 @@
 import profileImage from "../assets/pic1.jpg"
+import { useSectionRef } from "../shared/sectionRefContext"
 
-export default function AboutMeSection() {
+function AboutMeSection() {
+  const { aboutRef } = useSectionRef();
   return (
-    <div className="p-8">
-      <div>
+    <div className="pt-60 px-4"  >
+      <div className="pt-20" ref={aboutRef}>
         <h1 className="uppercase max-lg:text-7xl max-lg:font-bold max-lg:pb-10">About me</h1>
       </div>
       <div className="flex items-center gap-x-10 max-lg:flex-col-reverse">
@@ -21,3 +23,5 @@ export default function AboutMeSection() {
     </div>
   )
 }
+
+export default AboutMeSection

@@ -37,17 +37,17 @@ export default function CertificatesSection() {
   };
 
   return (
-    <div className="pt-40 pb-10">
+    <div className="pt-40 pb-10" id="certificates">
       <div>
-        <Marquee>
-          <snap className="text-7xl font-bold uppercase px-10">Certificates</snap>
-          <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
-          <snap className="text-7xl font-bold uppercase px-10">Certificates</snap>
-          <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
-          <snap className="text-7xl font-bold uppercase px-10">Certificates</snap>
-          <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
-          <snap className="text-7xl font-bold uppercase px-10">Certificates</snap>
-          <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
+        <Marquee className="py-4">
+          <span className="text-7xl font-bold uppercase px-10">Certificates</span>
+          <span className="text-7xl font-bold uppercase px-10">&#x2022;</span>
+          <span className="text-7xl font-bold uppercase px-10">Certificates</span>
+          <span className="text-7xl font-bold uppercase px-10">&#x2022;</span>
+          <span className="text-7xl font-bold uppercase px-10">Certificates</span>
+          <span className="text-7xl font-bold uppercase px-10">&#x2022;</span>
+          <span className="text-7xl font-bold uppercase px-10">Certificates</span>
+          <span className="text-7xl font-bold uppercase px-10">&#x2022;</span>
         </Marquee>
       </div>
       <div

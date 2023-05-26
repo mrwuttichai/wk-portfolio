@@ -3,10 +3,14 @@ import { ImLinkedin } from "react-icons/im"
 import { BsFacebook } from "react-icons/bs"
 import { SiInstagram } from "react-icons/si"
 import TypewriterComponent from "typewriter-effect"
+import { motion } from 'framer-motion';
+import { useSectionRef } from "../shared/sectionRefContext"
 
-export default function HomeSection() {
+function HomeSection() {
+  const { homeRef } = useSectionRef();
+
   return (
-    <div className="pb-52">
+    <div ref={homeRef}>
       <div className="flex justify-between items-center pt-40 px-32">
         <div className="">
           <h3 className="text-gray-500">
@@ -30,10 +34,10 @@ export default function HomeSection() {
           </div>
         </div>
       </div>
-      <div className="text-8xl font-extrabold flex flex-col items-center text-left tracking-wider pb-40">
-        <div className="">
-          <h1 className="max-lg:pb-10">Wuttichai Kantaseema</h1>
-          <h1>Software Developer.</h1>
+      <div className="font-extrabold flex flex-col items-center text-left tracking-wider pb-40">
+        <div className="max-lg:px-10">
+          <h1 className="max-lg:pb-10 max-sm:text-5xl max-sm:text-center max-sm:pt-20 text-8xl">Wuttichai Kantaseema</h1>
+          <h1 className="max-lg:pb-10 max-sm:text-2xl max-sm:text-center max-lg:text-5xl text-7xl" >Software Developer.</h1>
         </div>
       </div>
       <div className="flex justify-center items-center">
@@ -48,3 +52,4 @@ export default function HomeSection() {
   )
 }
 
+export default HomeSection;
