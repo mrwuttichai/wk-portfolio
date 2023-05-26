@@ -38,10 +38,18 @@ export default function HomeSection() {
       </div>
       <div className="flex justify-center items-center">
         <div className="flex items-center gap-x-1">
-          <BsGithub className="text-5xl p-3 rounded-full border-2 border-gray-100" />
-          <ImLinkedin className="text-5xl p-3 rounded-full border-2 border-gray-100" />
-          <BsFacebook className="text-5xl p-3 rounded-full border-2 border-gray-100" />
-          <SiInstagram className="text-5xl p-3 rounded-full border-2 border-gray-100" />
+          <a href="https://github.com/mrwuttichai" target="blank">
+            <BsGithub className="text-5xl p-3 rounded-full border-2 border-gray-100" />
+          </a> 
+          <a href="https://www.linkedin.com/in/mr-wuttichai/" target="blank">
+           <ImLinkedin className="text-5xl p-3 rounded-full border-2 border-gray-100" />
+          </a>
+          <a href="" target="blank">
+           <BsFacebook className="text-5xl p-3 rounded-full border-2 border-gray-100" />
+          </a>
+          <a href="" target="blank">
+            <SiInstagram className="text-5xl p-3 rounded-full border-2 border-gray-100" />
+          </a>
         </div>
       </div>
     </div>
