@@ -1,6 +1,6 @@
 export default function ContactSection({ sectionTitleColor, sectionDescriptionColor, sectionDescriptionText, sectionEmailText, backgroundColor, yourNameColor, yourEmailColor, yourMessageColor, buttonBackgroundColor, backgroundTextColor }) {
   return (
-    <div className={`grid grid-cols-12 bg-black p-10`}>
+    <div className={`grid grid-cols-12 bg-black p-10 max-lg:grid-cols-1`}>
 
       {/* Left text */}
       <div className="col-span-6 text-white">

@@ -29,7 +29,7 @@ export default function SkillsSection() {
           <snap className="text-7xl font-bold uppercase px-10">&#x2022;</snap>
         </Marquee>
       </div>
-      <div className="grid gap-y-4 grid-cols-4 gap-x-10 px-10 pt-10">
+      <div className="grid grid-cols-4 gap-x-10 gap-y-4 px-10 pt-10 max-lg:grid-cols-2 max-lg:gap-y-8 max-md:grid-cols-1">
         <SkillCard imageSrc={reacticon} title="React Js" description="" />
         <SkillCard imageSrc={nodeicon} title="Node JS" description="" />
         <SkillCard imageSrc={expressicon} title="Express JS" />

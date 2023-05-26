@@ -31,8 +31,8 @@ export default function HomeSection() {
         </div>
       </div>
       <div className="text-8xl font-extrabold flex flex-col items-center text-left tracking-wider pb-40">
-        <div>
-          <h1>Wuttichai Kantaseema</h1>
+        <div className="">
+          <h1 className="max-lg:pb-10">Wuttichai Kantaseema</h1>
           <h1>Software Developer.</h1>
         </div>
       </div>
