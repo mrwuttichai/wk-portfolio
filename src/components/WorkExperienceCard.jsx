@@ -10,7 +10,6 @@ export default function WorkExperienceCard({ experience }) {
         boxShadow: "0px 2px 4px 1px black"
       }}
       contentArrowStyle={{ borderRight: "12px solid  #232631" }}
-      date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className='flex justify-center items-center w-full h-full'>
@@ -30,6 +29,7 @@ export default function WorkExperienceCard({ experience }) {
         >
           {experience.companyName}
         </p>
+        <p>{experience.date}</p>
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
