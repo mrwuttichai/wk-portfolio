@@ -69,9 +69,6 @@ export default function CertificatesSection() {
             pauseOnMouseEnter: true
           }}
           navigation={showNavigation}
-          onSwiper={(swiper) => {
-            console.log(swiper);
-          }}
         >
           {certificates.map(cert => (
             <SwiperSlide key={cert}>
