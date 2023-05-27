@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Navigation } from "swiper";
+import LearnHowtoCode from "../assets/LearnHowtoCode.png";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -13,12 +14,8 @@ export default function CertificatesSection() {
   // Inesrt your certificate below.
 
   const certificates = [
-    "https://global.discourse-cdn.com/codecademy/original/5X/c/6/6/7/c667131d7a9516b92231e95797ddd6caebf41f52.jpeg",
-    "https://www.alphaacademy.org/wp-content/uploads/2022/10/Alpha-Certificate-2022.jpg",
-    "https://static.semrush.com/academy/certificates/dff5973e4f/oldcoderbd_2.png",
-    "https://i.pinimg.com/originals/ef/ea/1e/efea1eaf53b2380cf73e8ff3908f3c0e.png",
-    "https://strategylab3.files.wordpress.com/2013/03/example1.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfURiC7-NxZf7NngMWkvICsakQjd9F3IAdmw&usqp=CAU"
+    "https://images.unsplash.com/photo-1565091995126-e830112c0e4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJlZXBob3RvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    
   ];
 
 
@@ -72,13 +69,13 @@ export default function CertificatesSection() {
         >
           {certificates.map(cert => (
             <SwiperSlide key={cert}>
-              <div className="w-full flex items-center justify-center">
-                <img
-                  className="object-contain h-full w-full"
-                  src={cert}
-                  alt="Certificate"
-                />
-              </div>
+                <div className="w-full flex items-center justify-center">
+                  <img
+                    className="object-contain h-full w-full"
+                    src={cert}
+                    alt="Certificate"
+                  />
+                </div>
             </SwiperSlide>
           ))}
         </Swiper>
