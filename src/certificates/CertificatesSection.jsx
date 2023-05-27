@@ -1,12 +1,13 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Navigation } from "swiper";
-import LearnHowtoCode from "../assets/LearnHowtoCode.png";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Marquee from "react-fast-marquee";
+
+import LearnHowtoCode from "../assets/LearnHowtoCode.png";
 
 export default function CertificatesSection() {
 
@@ -14,12 +15,7 @@ export default function CertificatesSection() {
   // Inesrt your certificate below.
 
   const certificates = [
-    "https://global.discourse-cdn.com/codecademy/original/5X/c/6/6/7/c667131d7a9516b92231e95797ddd6caebf41f52.jpeg",
-    "https://www.alphaacademy.org/wp-content/uploads/2022/10/Alpha-Certificate-2022.jpg",
-    "https://static.semrush.com/academy/certificates/dff5973e4f/oldcoderbd_2.png",
-    "https://i.pinimg.com/originals/ef/ea/1e/efea1eaf53b2380cf73e8ff3908f3c0e.png",
-    "https://strategylab3.files.wordpress.com/2013/03/example1.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfURiC7-NxZf7NngMWkvICsakQjd9F3IAdmw&usqp=CAU"
+    LearnHowtoCode,
   ];
 
 
