@@ -25,7 +25,7 @@ export default function ProjectsSection() {
       descriptionColor: "text-[#000]",
 
       projectImage: justfitproject,
-      githubLink: "https://github.com/mrwuttichai",
+      githubLink: "https://github.com/eakkarunpoom/justfit-D2/",
       demoLink: "https://justfit-d2-sbg9.vercel.app/",
 
       // reverseContent เป็นค่า true, false ค่าเริ่มต้นคือ false โดยมันจะแสดงตัวหนังสืออยู่ซ้าย ภาพอยู่ซ้าย

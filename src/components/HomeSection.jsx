@@ -43,7 +43,7 @@ function HomeSection() {
                 typewriter.typeString('HI! All.')
                   .pauseFor(2500)
                   .deleteAll()
-                  .typeString('Welcome to my web portfilo.')
+                  .typeString('Welcome to my web portfolio.')
                   .pauseFor(2500)
                   .deleteAll()
                   .typeString("Enjoy!")
