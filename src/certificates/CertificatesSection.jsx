@@ -7,17 +7,13 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Marquee from "react-fast-marquee";
 
-import cert1 from "../assets/cert1.png"
-import cert2 from "../assets/cert2.png"
-
 export default function CertificatesSection() {
 
 
   // Inesrt your certificate below.
 
   const certificates = [
-    cert1,
-    cert2
+
   ];
 
 
