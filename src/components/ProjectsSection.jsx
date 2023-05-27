@@ -43,9 +43,6 @@ export default function ProjectsSection() {
       // ถ้าอยากได้ปกภาพเป็นขาวดำให้ตั้งเป็น true
       isBlackWhiteImage: false,
     },
-    { 
-      reverseContent: true
-    }
 
     // project ต่อ ๆ ไปก็ทำแบบเดิม
   ]
