@@ -29,7 +29,7 @@ export default function ProjectsSection() {
       demoLink: "https://justfit-d2-sbg9.vercel.app/",
 
       // reverseContent เป็นค่า true, false ค่าเริ่มต้นคือ false โดยมันจะแสดงตัวหนังสืออยู่ซ้าย ภาพอยู่ซ้าย
-      reverseContent: true,
+      reverseContent: false,
 
       backgroundColor: "bg-[#fff]",
 
@@ -74,7 +74,7 @@ export default function ProjectsSection() {
               description={project.description}
               githubLink={project.githubLink}
               demoLink={project.demoLink}
-              reverse={project.reverse}
+              reverseContent={project.reverseContent}
 
               backgroundColor={project.backgroundColor}
               textColor={project.textColor}
