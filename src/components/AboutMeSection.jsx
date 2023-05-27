@@ -9,14 +9,14 @@ function AboutMeSection() {
   const title = "";
   const description = "Dynamic and versatile software developer with a background in law, agriculture, and business. Skilled in front-end (HTML, CSS, Bootstrap, JavaScript, React JS), back-end (Node JS, Express JS), and database development (MongoDB, SQL). Collaborative team player experienced in agile-scrum methodologies. Strong communicator with problem-solving and strategic thinking abilities. Passionate about agritech, business and AI. Dedicated to creating effective digital solutions.";
 
-  const resumeLink = "https://drive.google.com/file/d/1PBy4oH7jhjvAJheAUkE-BhVVUWhBSVMB/view?usp=sharing"
+  const resumeLink = "https://drive.google.com/file/d/1GRWW-gErRcMUCs-_B8D3cdrrqaN5t_AP/view?usp=sharing"
 
   // ==============================================================================================================
 
   return (
     <div className="pt-60 px-4"  >
       <div className="pt-20" ref={aboutRef}>
-        <h1 className="uppercase max-lg:text-7xl max-lg:font-bold max-lg:pb-10">About me</h1>
+        <h1 className="uppercase max-lg:text-7xl max-lg:font-bold max-lg:pb-10 text-[50px]">About me</h1>
       </div>
       <div className="flex items-center gap-x-10 max-lg:flex-col-reverse">
         <div className="flex flex-col justify-center items-center w-1/2 max-lg:pt-10  max-lg:w-full">
