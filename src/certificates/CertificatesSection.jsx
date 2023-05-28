@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import Marquee from "react-fast-marquee";
 
 import LearnHowtoCode from "../assets/LearnHowtoCode.png";
+import LawforBusiness from "../assets/LawforBusiness.jpg";
 
 export default function CertificatesSection() {
 
@@ -16,6 +17,7 @@ export default function CertificatesSection() {
 
   const certificates = [
     LearnHowtoCode,
+    LawforBusiness,
   ];
 
 
