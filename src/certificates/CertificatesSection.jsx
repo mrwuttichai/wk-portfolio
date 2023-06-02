@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Marquee from "react-fast-marquee";
 
+import Jsd4 from "../assets/jsd4.jpg";
 import LearnHowtoCode from "../assets/LearnHowtoCode.png";
 import LawforBusiness from "../assets/LawforBusiness.jpg";
 
@@ -16,6 +17,7 @@ export default function CertificatesSection() {
   // Inesrt your certificate below.
 
   const certificates = [
+    Jsd4,
     LearnHowtoCode,
     LawforBusiness,
   ];
