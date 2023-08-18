@@ -63,13 +63,13 @@ export default function ContactSection() {
             <h1 className="text-xl text-white font-medium">Your Name</h1>
           </div>
           <div>
-            <input className="w-full p-2 rounded-sm outline-black" type="text" value={guessName} placeholder="What's your good name?" onChange={(e) => setGuessName(e.target.value)} />
+            <input className="w-full p-2 rounded-sm outline-black" type="text" value={guessName} placeholder="What's your name?" onChange={(e) => setGuessName(e.target.value)} />
           </div>
           <div>
             <h1 className="text-xl text-white font-medium">Your email</h1>
           </div>
           <div>
-            <input className="w-full p-2 rounded-sm outline-black" type="email" value={guessEmail} placeholder="What's your web address?" onChange={(e) => setGuessEmail(e.target.value.trim())} />
+            <input className="w-full p-2 rounded-sm outline-black" type="email" value={guessEmail} placeholder="What's your address?" onChange={(e) => setGuessEmail(e.target.value.trim())} />
           </div>
           <div>
             <h1 className="text-xl text-white font-medium">Your Message</h1>
