@@ -28,7 +28,7 @@ function HomeSection() {
       link: "mr.wuttichai.ktsm@gmail.com"
     }
 
-    // #Add more social below same as above pattern.
+    // #Add more social below same as the above pattern.
   ]
 
   // ========================================================================================================
@@ -67,11 +67,19 @@ function HomeSection() {
       <div className="flex justify-center items-center">
         <div className="flex items-center gap-x-1">
             {socials.map(social => {
-              return (
-                <a href={social.link} key={crypto.randomUUID()} target="_blank">
-                  {social.icon}
-                </a>
-              )
+              if (social.icon.type === MdEmail) {
+                return (
+                  <a href={`mailto:${social.link}`} key={crypto.randomUUID()}>
+                    {social.icon}
+                  </a>
+                );
+              } else {
+                return (
+                  <a href={social.link} key={crypto.randomUUID()} target="_blank">
+                    {social.icon}
+                  </a>
+                );
+              }
             })}
         </div>
       </div>
