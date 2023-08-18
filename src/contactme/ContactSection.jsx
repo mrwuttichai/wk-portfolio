@@ -23,8 +23,8 @@ export default function ContactSection() {
   // ========================================================
 
   const title = "Let's Talk"
-  const description = "If you would like to work with me or just want to get in touch, I'd love to hear from you!";
-  const yourEmail = "wk@example.com";
+  const description = "";
+  const yourEmail = "";
 
   // ทำแบบเดียวกับหน้า ProjectSection
   const custom = {
@@ -63,19 +63,19 @@ export default function ContactSection() {
             <h1 className="text-xl text-white font-medium">Your Name</h1>
           </div>
           <div>
-            <input className="w-full p-2 rounded-sm outline-black" type="text" value={guessName} placeholder="What's your name?" onChange={(e) => setGuessName(e.target.value)} />
+            <input className="w-full p-2 rounded-sm outline-black" type="text" value={guessName} placeholder="" onChange={(e) => setGuessName(e.target.value)} />
           </div>
           <div>
             <h1 className="text-xl text-white font-medium">Your email</h1>
           </div>
           <div>
-            <input className="w-full p-2 rounded-sm outline-black" type="email" value={guessEmail} placeholder="What's your address?" onChange={(e) => setGuessEmail(e.target.value.trim())} />
+            <input className="w-full p-2 rounded-sm outline-black" type="email" value={guessEmail} placeholder="" onChange={(e) => setGuessEmail(e.target.value.trim())} />
           </div>
           <div>
             <h1 className="text-xl text-white font-medium">Your Message</h1>
           </div>
           <div>
-            <textarea className="w-full p-2 rounded-sm outline-black resize-none h-52" value={guessMessage} placeholder="What you want to say?" onChange={(e) => setGuessMessage(e.target.value.trim())} />
+            <textarea className="w-full p-2 rounded-sm outline-black resize-none h-52" value={guessMessage} placeholder="" onChange={(e) => setGuessMessage(e.target.value.trim())} />
           </div>
           <div>
             <button className="text-xl bg-white px-8 py-2 rounded-md font-medium">Send</button>
