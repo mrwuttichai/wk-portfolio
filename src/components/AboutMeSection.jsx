@@ -16,7 +16,7 @@ function AboutMeSection() {
   return (
     <div className="pt-60 px-4"  >
       <div className="pt-20" ref={aboutRef}>
-        <h1 className="uppercase max-lg:text-7xl max-lg:font-bold max-lg:pb-10 text-[50px]">About me</h1>
+        <h1 className="uppercase max-lg:text-7xl max-lg:font-bold max-lg:pb-10 text-[50px] font-bold">About me</h1>
       </div>
       <div className="flex items-center gap-x-10 max-lg:flex-col-reverse">
         <div className="flex flex-col justify-center items-center w-1/2 max-lg:pt-10  max-lg:w-full">
