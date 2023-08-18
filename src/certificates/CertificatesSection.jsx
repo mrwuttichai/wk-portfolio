@@ -9,6 +9,7 @@ import Marquee from "react-fast-marquee";
 
 import Jsd4 from "../assets/jsd4.jpg";
 import LearnJavaScriptCourse from "../assets/LearnJavaScriptCourse.png"
+import LearnReactCourse from "../assets/LearnReactCourse.png"
 import LearnHowtoCode from "../assets/LearnHowtoCode.png";
 import LawforBusiness from "../assets/LawforBusiness.jpg";
 
@@ -20,6 +21,7 @@ export default function CertificatesSection() {
   const certificates = [
     Jsd4,
     LearnJavaScriptCourse,
+    LearnReactCourse,
     LearnHowtoCode,
     LawforBusiness,
   ];
