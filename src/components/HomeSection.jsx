@@ -25,7 +25,7 @@ function HomeSection() {
     },
     {
       icon: <MdEmail className="text-5xl p-3 rounded-full border-2 border-gray-100" />,
-      link: "https://github.com/mrwuttichai"
+      link: "mr.wuttichai.ktsm@gmail.com"
     }
 
     // #Add more social below same as above pattern.
